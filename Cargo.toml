@@ -6,10 +6,13 @@ edition = "2018"
 [dependencies]
 rsa = "0.5.0"
 rand = "0.8.5"
+base32 = "0.4.0"
 base64 = "0.13.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 tokio = "1.39.2"
+hex = "0.4.2"
+sha2 = "0.10.7"
 
 
 #[patch.crates-io]
